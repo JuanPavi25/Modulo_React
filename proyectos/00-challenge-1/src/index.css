@@ -12,7 +12,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.card{
+  font-size: 2em;
+  margin: 0.3em;
 
+}
 a {
   font-weight: 500;
   color: #646cff;
@@ -25,6 +29,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  flex-direction:inherit;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -32,7 +37,7 @@ body {
 
 h1 {
   font-size: 3.2em;
-  line-height: 1.1;
+  margin: 0.3em;
 }
 
 button {
@@ -42,16 +47,17 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #2500fa;
   cursor: pointer;
   transition: border-color 0.25s;
+  margin: 0.6em;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #ff0000;
 }
 button:focus,
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  outline: 10px auto -webkit-focus-ring-color;
 }
 
 @media (prefers-color-scheme: light) {
