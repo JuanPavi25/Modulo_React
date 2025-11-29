@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { TarjetaPerfil } from './components/TarjetaPerfil'
 
@@ -8,9 +5,9 @@ function App() {
   return (
     <>
       <div className='app2'>
-        <TarjetaPerfil nombre="Juan Pavi" edad={25} profesion={"Ing."} />
-        <TarjetaPerfil nombre="Juan Pavi" edad={25} profesion={"Ing."} />
-        <TarjetaPerfil nombre="Juan Pavi" edad={25} profesion={"Ing."} />
+        <TarjetaPerfil nickname="Alexander" nombre="Juan Pavi" edad={"24 años"} profesion={"Ing. Sistemas"} />
+        <TarjetaPerfil nickname="Liam" nombre="Carlos Perez" edad={"31 Años"} profesion={"Ing. Sistemas"} />
+        <TarjetaPerfil nickname="Ryam" nombre="Claudia Arana" edad={"25 años"} profesion={"Ing. Software"} />
       </div>
     </>
 

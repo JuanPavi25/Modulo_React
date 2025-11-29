@@ -1,3 +1,12 @@
 .card {
-    max-width: 250px;
+    min-width: 350px;
+    border: 1px black solid;
+    
+}
+
+img{
+
+    min-width: 100px;
+    min-height: 150px;
+    min-height: fit-content;
 }
